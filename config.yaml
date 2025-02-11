@@ -1,0 +1,21 @@
+apis:
+  dexscreener:
+    enabled: true
+  coingecko:
+    enabled: true
+  rugcheck:
+    api_key: "your_key"
+    
+telegram:
+  bot_token: "your_token"
+  chat_id: "your_chat"
+
+trading:
+  capital: 50.0
+  risk_per_trade: 0.02
+  max_drawdown: 0.2
+  chain: "solana"       # solana/ethereum
+
+mev:
+  jupiter_enabled: true # Solana MEV
+  flashbots_enabled: false
